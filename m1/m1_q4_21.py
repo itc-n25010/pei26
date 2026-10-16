@@ -9,6 +9,7 @@ while s <= num: #s が num 以下である間、繰り返す
             list_s.append(s) #s をリストに追加
     else:
         s += 1 #割り切れなかった場合、調べる数を1増やす
+        print(num) #割り切れなかった後の num を出力
 print(list_s)
 
 """
